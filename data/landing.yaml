@@ -1,0 +1,46 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v1.0.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "IA Embarquée"
+  subtitle: Documentation pour le module d'IA Embarquée enseigné à l'I.U.T. Nice Côte d'Azur
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  cta2Button:
+    icon: rocket_launch
+    btnText: "Accéder à la documentation"
+    url: "/docs/"
+
+  info: "**Open Source** MIT Licensed."
+
+# Feature Grid
+featureGrid:
+  enable: false
+  weight: 20
+  template: feature grid
+
+# Image Compare
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare
