@@ -1,6 +1,6 @@
-baseURL = 'https://iaembarquee.hugofnm.fr'
+baseURL = 'https://simai32.hugofnm.fr'
 languageCode = 'fr-fr'
-title = 'IA Embarquée'
+title = 'SimAI32'
 enableEmoji = true
 
 [module]

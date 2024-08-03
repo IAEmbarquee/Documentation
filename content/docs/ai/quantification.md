@@ -1,5 +1,5 @@
 ---
-weight: 32
+weight: 35
 title: "Quantification"
 description: "Quantification des modèles d'IA."
 icon: compress

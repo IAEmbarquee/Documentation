@@ -30,6 +30,6 @@ Nous allons donc avoir besoin d'un routeur Wi-Fi pour connecter l'ESP32 à l'ord
 
 ### Schéma final
 
-![](https://raw.githubusercontent.com/MetrixMedia/EmbeddedAI-Documentation/main/assets/images/networking.png)
+![](https://raw.githubusercontent.com/metrixmedia/EmbeddedAI-Documentation/main/assets/images/networking.png)
 
 Plutôt facile, non ? Vous pouvez maintenant passer à la suite.

@@ -16,7 +16,7 @@ hero:
     pill: false # boolean
     soft: true # boolean
 
-  title: "IA Embarquée"
+  title: "SimAI32"
   subtitle: Documentation pour le module d'IA Embarquée enseigné à l'I.U.T. Nice Côte d'Azur
 
   image:
