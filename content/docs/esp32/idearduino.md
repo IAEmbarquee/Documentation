@@ -1,7 +1,7 @@
 ---
 weight: 23
 title: "IDE Arduino"
-description: "Programmation en C++"
+description: "Installation et configuration de l'IDE Arduino."
 icon: terminal
 date: "2024-08-02T16:40:08+02:00"
 lastmod: "2024-08-02T16:40:08+02:00"
