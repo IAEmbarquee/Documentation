@@ -9,8 +9,18 @@ draft: false
 toc: true
 ---
 
+### Schéma 
+
 ### Squelette de programme
 
 Veuillez récupérer le squelette de programme suivant pour commencer à programmer l'ESP32 :
 
+[Télécharger le squelette de programme](https://simai32.hugofnm.fr/download?q=skeleton)
+
 ```cpp
+
+```
+
+### Comprendre le code
+
+ 

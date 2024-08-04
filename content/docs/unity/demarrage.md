@@ -26,9 +26,6 @@ Pour démarrer avec SimAI32, vous aurez besoin des éléments suivants :
 
 Pour installer SimAI32, suivez les étapes suivantes :
 
-1. Téléchargez le fichier d'installation de SimAI32 à partir du lien suivant 
-```shell
-https://
-```
+1. Téléchargez le fichier d'installation de SimAI32 à partir du lien suivant : [SimAI32](https://simai32.hugofnm.fr/download?q=simai32).
 2. Exécutez le fichier d'installation et suivez les instructions à l'écran.
 3. Une fois l'installation terminée, lancez l'application SimAI32.
