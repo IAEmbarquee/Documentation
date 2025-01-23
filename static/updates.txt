@@ -1,0 +1,13 @@
+;aiu;
+
+[v1.0.0.0]
+Name = SimAI32
+ProductVersion = 1.0.0.0
+URL = https://gitlab.hugofnm.fr/simai32/simai32/-/raw/master/SimAI32%20(Unity)/SimAI32%20-%20Installer%20-%201.0.0.0.exe
+Size = 317556803
+ReleaseDate = 23/01/2025
+SHA256 = C2F346A04B915E38E9DC05A146028A87262EA557166466C2DDEDB20277CB18BF
+MD5 = 58003be99d6ecada7f346cce5a47c799
+ServerFileName = SimAI32 - Installer - 1.0.0.0.exe
+RegistryKey = HKUD\Software\Hugo Meleiro - LEAT - Université Côte d'Azur\SimAI32\Version
+Version = 1.0.0.0
