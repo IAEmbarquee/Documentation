@@ -42,6 +42,8 @@ Vous avez deux espaces de travail disponibles :&#x20;
 * Ou bien par Visual Studio Code **(RECOMMANDÉ)**, en cliquant sur le bouton <kbd>Open on VSCode</kbd> ou :
   * Ouvrez VSCode.&#x20;
   * Cliquez sur <kbd>Se connecter à…</kbd> puis <kbd>Se connecter à l’hôte</kbd> et tapez <kbd>utilisateur@nomdelamachine</kbd> et le mot de passe.&#x20;
+  * Installez les extensions **Python** et **Jupyter**&#x20;
+  * Vérifiez avant exécution, que vous êtes bien sur la version 3.11 de Python !
 
 {% hint style="success" %}
 Voilà, vous êtes connectés sur la machine distante.&#x20;

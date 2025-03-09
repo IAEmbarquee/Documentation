@@ -44,14 +44,14 @@ Le simulateur SimAI32 possède 3 modes de fonctionnement :
 
 L’ESP32 fait office de serveur HTTP et reçoit des données du simulateur.&#x20;
 
-* Dans un premier temps, on reçoit une image du simulateur (à l’adresse /image)
+* Dans un premier temps, on reçoit une image du simulateur (à l’adresse <kbd>/image</kbd>)
   * L'image est au format png (une opération de décompression est donc nécessaire)
   * Vous pouvez choisir la taille de l'image (par défaut sur 32x32)
   * Image en RGB !
-* Puis le simulateur envoie des données (à l’adresse /data) suivant cette structure :&#x20;
-  * speed (int - 5 digits XXX.XX x 100)&#x20;
-  * odometer (int - 5 digits XXX.XX x 100)&#x20;
-  * redlight (bool - 1 digit) | Est à l’état haut si un feu rouge est proche&#x20;
-  * carinfront (bool - 1 digit) | Est à l’état haut si une voiture est à moins de 50 mètres. (ça changera peut-être pour intégrer un ultrason simulé et permettre une dynamique plus large)&#x20;
+* Puis le simulateur envoie des données (à l’adresse <kbd>/data</kbd>) suivant cette structure :&#x20;
+  * `speed` (int - 5 digits XXX.XX x 100)&#x20;
+  * `odometer` (int - 5 digits XXX.XX x 100)&#x20;
+  * `redlight` (bool - 1 digit) | Est à l’état haut si un feu rouge est proche&#x20;
+  * `carinfront` (bool - 1 digit) | Est à l’état haut si une voiture est à moins de 50 mètres. (ça changera peut-être pour intégrer un ultrason simulé et permettre une dynamique plus large)&#x20;
   * Total : 12 digits - 4 bytes
 * Enfin, vous renvoyez vos données selon le mode que vous aurez choisi !
