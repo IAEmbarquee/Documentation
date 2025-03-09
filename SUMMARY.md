@@ -13,12 +13,9 @@
 * [Informations](esp32/informations.md)
 * [IDE Arduino](esp32/ide-arduino.md)
 * [IDE VSCode](esp32/ide-vscode.md)
-
-***
-
-* [Réseau](reseau.md)
-* [Librairies](librairies.md)
-* [Programmation](programmation.md)
+* [Réseau](esp32/reseau.md)
+* [Librairies](esp32/librairies.md)
+* [Programmation](esp32/programmation.md)
 
 ## Intelligence Artificielle
 
