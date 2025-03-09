@@ -23,9 +23,10 @@
 * [Compression](intelligence-artificielle/compression.md)
 * [Quantification](intelligence-artificielle/quantification.md)
 * [Jeu de données](intelligence-artificielle/jeu-de-donnees.md)
+* [Entraînement](intelligence-artificielle/entrainement.md)
 
 ## SimAI32
 
 * [Installation](simai32/installation.md)
-* [Classement](simai32/classement.md)
 * [Fonctionnement](simai32/fonctionnement.md)
+* [Classement](simai32/classement.md)

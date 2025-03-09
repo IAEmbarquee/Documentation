@@ -22,7 +22,7 @@ winget install -e --id Microsoft.VisualStudioCode
 ```
 {% endtab %}
 
-{% tab title="Via Arduino.cc" %}
+{% tab title="Via le site officiel" %}
 Méthode traditionnelle d'installation de l'IDE VSCode. Téléchargez le fichier d'installation depuis le site officiel de Microsoft et suivez les instructions d'installation.
 
 [Télécharger Visual Studio Code](https://code.visualstudio.com/download)

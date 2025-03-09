@@ -21,4 +21,4 @@ Votre nom d'utilisateur sera affiché dans le classement et ne doit pas contenir
 Votre mot de passe doit être de 8-32 caractères et contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial.
 {% endhint %}
 
-En vous inscrivant, vous acceptez que l'entreprise Unity stocke vos données personnelles et les utilise pour établir le classement. Vous pouvez à tout moment demander la suppression de vos données personnelles allant dans les réglages du jeu, puis `Supprimer mon compte`.
+En vous inscrivant, **vous acceptez que l'entreprise Unity stocke vos données personnelles et les utilise pour établir le classement**. Vous pouvez à tout moment demander la suppression de vos données personnelles allant dans les réglages du jeu, puis <kbd>Supprimer mon compte</kbd>.

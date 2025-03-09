@@ -7,11 +7,15 @@ coverY: 0
 
 # Programmation
 
-## Squelette de programme - Phase 1
-
 Veuillez récupérer le squelette de programme suivant pour commencer à programmer l'ESP32 :
 
-[Télécharger le squelette de programme](https://simai32.hugofnm.fr/download?q=skeleton)
+[Télécharger le squelette de programme](https://gitlab.hugofnm.fr/simai32/simai32/-/tree/master/ESP32/)
+
+## Squelette de programme - Phase 1
+
+{% hint style="warning" %}
+Ne comprend pas tout le code. Veuillez le télécharger depuis le lien au-dessus.
+{% endhint %}
 
 <pre class="language-cpp"><code class="lang-cpp">/*
     ESP32 - IA Embarquée - GTSRB

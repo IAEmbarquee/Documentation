@@ -42,7 +42,10 @@ Vous avez deux espaces de travail disponibles :&#x20;
 * Ou bien par Visual Studio Code **(RECOMMANDÉ)**, en cliquant sur le bouton <kbd>Open on VSCode</kbd> ou :
   * Ouvrez VSCode.&#x20;
   * Cliquez sur <kbd>Se connecter à…</kbd> puis <kbd>Se connecter à l’hôte</kbd> et tapez <kbd>utilisateur@nomdelamachine</kbd> et le mot de passe.&#x20;
-  * Voilà, vous accédez à VSCode mais sur la machine distante.&#x20;
+
+{% hint style="success" %}
+Voilà, vous êtes connectés sur la machine distante.&#x20;
+{% endhint %}
 
 {% hint style="info" %}
 Le dataset GTSRB est situé dans /dataset (lecture seule) et le stockage persistant dans /storage. Veuillez ne pas travailler sur le stockage persistant. (Python gère très mal les montages réseau)

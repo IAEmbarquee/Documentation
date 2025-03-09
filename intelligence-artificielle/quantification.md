@@ -7,11 +7,11 @@ coverY: 0
 
 # Quantification
 
-#### Introduction
+## Introduction
 
 La quantification est une technique qui permet de réduire la taille des modèles d'IA en convertissant les poids des réseaux de neurones en nombres entiers. Cette technique est particulièrement utile pour les applications embarquées où la mémoire est limitée. La quantification peut être réalisée de différentes manières, en fonction des besoins de l'application et des contraintes matérielles. Dans ce guide, nous allons explorer les différentes techniques de quantification et comment les appliquer à vos modèles d'IA.
 
-#### Techniques de quantification
+## Techniques de quantification
 
 Il existe plusieurs techniques de quantification qui peuvent être utilisées pour réduire la taille des modèles d'IA. Voici quelques-unes des techniques les plus courantes :
 

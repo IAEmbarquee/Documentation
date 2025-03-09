@@ -22,7 +22,7 @@ winget install --id=ArduinoSA.IDE.stable  -e
 ```
 {% endtab %}
 
-{% tab title="Via Arduino.cc" %}
+{% tab title="Via le site officiel" %}
 Méthode traditionnelle d'installation de l'IDE Arduino. Téléchargez le fichier d'installation depuis le site officiel d'Arduino et suivez les instructions d'installation.
 
 [Télécharger Arduino IDE](https://www.arduino.cc/en/software)
