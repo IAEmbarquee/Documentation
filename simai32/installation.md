@@ -26,7 +26,3 @@ Pour installer SimAI32, suivez les étapes suivantes :
 1. Téléchargez le fichier d'installation de SimAI32 à partir du lien suivant : [SimAI32](https://gitlab.hugofnm.fr/simai32/simai32/-/tree/master/SimAI32%20\(Unity\)/).
 2. Exécutez le fichier d'installation et suivez les instructions à l'écran.
 3. Une fois l'installation terminée, lancez l'application SimAI32.
-
-## Updates
-
-{% file src="../.gitbook/assets/updates.txt" %}
