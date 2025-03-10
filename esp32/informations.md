@@ -1,7 +1,7 @@
 ---
 icon: info
 cover: >-
-  https://images.unsplash.com/photo-1607376083264-5a8f8860c091?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxMHx8Y29tcHV0ZXIlMjBjaXJjdWl0fGVufDB8fHx8MTc0MTU0NDY1OHww&ixlib=rb-4.0.3&q=85
+  https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxhcmR1aW5vfGVufDB8fHx8MTc0MTU0NDU2NHww&ixlib=rb-4.0.3&q=85
 coverY: 0
 ---
 
