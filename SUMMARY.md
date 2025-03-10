@@ -28,6 +28,6 @@
 
 ## SimAI32
 
-* [Installation](simai32-1/installation.md)
-* [Fonctionnement](simai32-1/fonctionnement.md)
-* [Classement](simai32-1/classement.md)
+* [Installation](simai32/installation.md)
+* [Fonctionnement](simai32/fonctionnement.md)
+* [Classement](simai32/classement.md)
