@@ -13,6 +13,12 @@ Veuillez récupérer le squelette de programme suivant pour commencer à program
 
 ## Squelette de programme - Phase 1
 
+### Informations sur les panneaux inclus
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Panneau 70</td><td><a href="../.gitbook/assets/panneau1.png">panneau1.png</a></td></tr><tr><td>Panneau Chaussée Glissante</td><td><a href="../.gitbook/assets/panneau2.png">panneau2.png</a></td></tr><tr><td>Panneau Tout Droit</td><td><a href="../.gitbook/assets/panneau3.png">panneau3.png</a></td></tr></tbody></table>
+
+### Code
+
 {% hint style="warning" %}
 Ne comprend pas tout le code. Veuillez le télécharger depuis le lien au-dessus.
 {% endhint %}

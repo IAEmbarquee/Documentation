@@ -9,6 +9,14 @@
 * [Connexion](cluster-gpu/connexion.md)
 * [Orchestration](cluster-gpu/orchestration.md)
 
+## Intelligence Artificielle
+
+* [Prétraitement](intelligence-artificielle/pretraitement.md)
+* [Compression](intelligence-artificielle/compression.md)
+* [Quantification](intelligence-artificielle/quantification.md)
+* [Jeu de données](intelligence-artificielle/jeu-de-donnees.md)
+* [Entraînement](intelligence-artificielle/entrainement.md)
+
 ## ESP32
 
 * [Informations](esp32/informations.md)
@@ -17,14 +25,6 @@
 * [Réseau](esp32/reseau.md)
 * [Librairies](esp32/librairies.md)
 * [Programmation](esp32/programmation.md)
-
-## Intelligence Artificielle
-
-* [Prétraitement](intelligence-artificielle/pretraitement.md)
-* [Compression](intelligence-artificielle/compression.md)
-* [Quantification](intelligence-artificielle/quantification.md)
-* [Jeu de données](intelligence-artificielle/jeu-de-donnees.md)
-* [Entraînement](intelligence-artificielle/entrainement.md)
 
 ## SimAI32
 
