@@ -58,9 +58,49 @@ L’ESP32 fait office de serveur HTTP et reçoit des données du simulateur.&#x2
 
 ## Exemple de payload envoyée par le simulateur
 
-[<kbd><mark style="background-color:blue;">**XXXXXXXX**<mark style="background-color:blue;"></kbd>](#user-content-fn-1)[^1] [<kbd><mark style="background-color:purple;">**XXXXXXXXXXXXXXXX**<mark style="background-color:purple;"></kbd>](#user-content-fn-2)[^2] [<kbd><mark style="background-color:orange;">**XXXXXXX**<mark style="background-color:orange;"></kbd>](#user-content-fn-3)[^3] [<kbd><mark style="background-color:green;">**X**<mark style="background-color:green;"></kbd>](#user-content-fn-4)[^4]&#x20;
+[<kbd><mark style="background-color:blue;">**XXXXXXXX**<mark style="background-color:blue;"></kbd>](#user-content-fn-1)[^1] [<kbd><mark style="background-color:purple;">**XXXXXXXXXXXXXXXX**<mark style="background-color:purple;"></kbd>](#user-content-fn-2)[^2] [<kbd><mark style="background-color:orange;">**XXXXXXX**<mark style="background-color:orange;"></kbd>](#user-content-fn-3)[^3] [<kbd><mark style="background-color:green;">**X**<mark style="background-color:green;"></kbd>](#user-content-fn-4)[^4]  - 32 bits sous forme de `uint32_t`
 
-Passez votre souris sur les bits 😇
+Cliquez sur les bits pour en savoir plus...😇
+
+## Exemple de payload envoyée par l'ESP32
+
+#### Pour le mode Label
+
+&#x20;[<kbd><mark style="background-color:blue;">XX<mark style="background-color:blue;"></kbd>](#user-content-fn-5)[^5] - réponse sous forme de `int`
+
+#### Pour le mode ManagedSpeed
+
+[<kbd><mark style="background-color:green;">XXX<mark style="background-color:green;"></kbd>](#user-content-fn-6)[^6] - réponse sous forme de `int`
+
+#### Pour le mode Speed/Brake
+
+[<kbd><mark style="background-color:yellow;">XXX<mark style="background-color:yellow;"></kbd>](#user-content-fn-7)[^7]<kbd>,</kbd>[<kbd><mark style="background-color:red;">XXX<mark style="background-color:red;"></kbd>](#user-content-fn-8)[^8] - réponse sous forme de `string`
+
+## Résumé d'un "tick" dans le jeu
+
+Dès lors que vous appuyez sur le bouton "Start", ces actions seront réalisées jusqu'à l'arrêt de la simulation. (par le clic sur le bouton STOP, ou la fin du circuit)
+
+{% stepper %}
+{% step %}
+### Le simulateur envoie une image à l'ESP32 toutes les 100 ms (10 fps)
+
+Image RGB 32x32 au format PNG
+{% endstep %}
+
+{% step %}
+### Le simulateur envoie les données voiture à l'ESP32
+
+Voir [#envoi-et-reception-de-donnees](fonctionnement.md#envoi-et-reception-de-donnees "mention")
+{% endstep %}
+
+{% step %}
+### L'ESP32 répond avec le bon format de données
+
+Voir [#envoi-et-reception-de-donnees](fonctionnement.md#envoi-et-reception-de-donnees "mention")
+{% endstep %}
+{% endstepper %}
+
+
 
 [^1]: **Vitesse (8 bits : max. 256 km/h)**&#x20;
 
@@ -69,3 +109,11 @@ Passez votre souris sur les bits 😇
 [^3]: **Ultrason (7 bits : max. 128 m)**
 
 [^4]: **Feu rouge en approche (1 bit : booléen)**
+
+[^5]: Classe du panneau
+
+[^6]: Vitesse désirée (valeur entre 0 et 255)
+
+[^7]: Accélérateur (valeur entre 0.00 et 1.00)
+
+[^8]: Frein (valeur entre 0.00 et 1.00)
