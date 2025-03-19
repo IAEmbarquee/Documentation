@@ -48,10 +48,24 @@ L’ESP32 fait office de serveur HTTP et reçoit des données du simulateur.&#x2
   * L'image est au format png (une opération de décompression est donc nécessaire)
   * Vous pouvez choisir la taille de l'image (par défaut sur 32x32)
   * Image en RGB !
-* Puis le simulateur envoie des données (à l’adresse <kbd>/data</kbd>) suivant cette structure :&#x20;
-  * `speed` (int - 5 digits XXX.XX x 100)&#x20;
-  * `odometer` (int - 5 digits XXX.XX x 100)&#x20;
-  * `redlight` (bool - 1 digit) | Est à l’état haut si un feu rouge est proche&#x20;
-  * `carinfront` (bool - 1 digit) | Est à l’état haut si une voiture est à moins de 50 mètres. (ça changera peut-être pour intégrer un ultrason simulé et permettre une dynamique plus large)&#x20;
-  * Total : 12 digits - 4 bytes
+* Puis le simulateur envoie des données (à l’adresse <kbd>/data</kbd>) qui devront être parsées correctement suivant ces variables  :&#x20;
+  * `speed` (int)&#x20;
+  * `odometer` (int)&#x20;
+  * `carinfront` (int) | Radar simulé pour déterminer la distance entre un obstacle proche
+  * `redlight` (bool) | Est à l’état haut si un feu rouge est proche&#x20;
+  * Total : 32 bits
 * Enfin, vous renvoyez vos données selon le mode que vous aurez choisi !
+
+## Exemple de payload envoyée par le simulateur
+
+[<kbd><mark style="background-color:blue;">**XXXXXXXX**<mark style="background-color:blue;"></kbd>](#user-content-fn-1)[^1] [<kbd><mark style="background-color:purple;">**XXXXXXXXXXXXXXXX**<mark style="background-color:purple;"></kbd>](#user-content-fn-2)[^2] [<kbd><mark style="background-color:orange;">**XXXXXXX**<mark style="background-color:orange;"></kbd>](#user-content-fn-3)[^3] [<kbd><mark style="background-color:green;">**X**<mark style="background-color:green;"></kbd>](#user-content-fn-4)[^4]&#x20;
+
+Passez votre souris sur les bits 😇
+
+[^1]: **Vitesse (8 bits : max. 256 km/h)**&#x20;
+
+[^2]: **Odomètre (16 bits : max. 65536 m)**
+
+[^3]: **Ultrason (7 bits : max. 128 m)**
+
+[^4]: **Feu rouge en approche (1 bit : booléen)**
