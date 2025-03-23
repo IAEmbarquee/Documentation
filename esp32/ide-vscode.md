@@ -1,4 +1,5 @@
 ---
+description: Il est préférable d'utiliser cet IDE.
 icon: code-simple
 cover: >-
   https://images.unsplash.com/photo-1517055729445-fa7d27394b48?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxMHx8YXJkdWlub3xlbnwwfHx8fDE3NDE1NDQ1NjR8MA&ixlib=rb-4.0.3&q=85
@@ -56,6 +57,13 @@ Une fois votre projet créé, PlatformIO vous redirige automatiquement sur votre
 De là, vous pouvez ouvrir le fichier <kbd>main.cpp</kbd> dans le dossier <kbd>/src</kbd>. C'est ici que vous allez pouvoir taper votre magnifique code.
 
 <figure><img src="../.gitbook/assets/vscode4.png" alt="" width="375"><figcaption><p>main.cpp</p></figcaption></figure>
+
+Afin de pouvoir debugger le code C++ de notre M5Stack, il faut rajouter une ligne de configuration au fichier <kbd>platformio.ini</kbd> :&#x20;
+
+```ini
+; Insérez cette ligne à la toute fin du fichier :)
+debug_tool = esp-builtin
+```
 
 ## PlatformIO - Actions
 

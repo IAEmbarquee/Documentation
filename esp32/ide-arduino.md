@@ -1,4 +1,5 @@
 ---
+description: Il est préférable d'utiliser l'IDE VSCode !
 icon: code-simple
 cover: >-
   https://images.unsplash.com/photo-1517055729445-fa7d27394b48?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxMHx8YXJkdWlub3xlbnwwfHx8fDE3NDE1NDQ1NjR8MA&ixlib=rb-4.0.3&q=85
