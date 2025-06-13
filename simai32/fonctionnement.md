@@ -21,6 +21,23 @@ layout:
 
 # Fonctionnement
 
+## Options
+
+Le simulateur SimAI32 autorise la modification de quelques paramètres de simulation tels que :
+
+* <kbd>Enable NPC</kbd>
+  * Permet d'activer/désactiver la présence de voitures IA (ou PNJ) lors de la simulation
+* <kbd>Scénario</kbd>
+  * Permet de choisir l'un des parcours effectués par la voiture. Actuellement, le simulateur comporte deux parcours :
+    * Autoroute | Trajet classique
+    * Panneaux en folie | Trajet favorisant le debug, la voiture roule en ligne droite et plein de panneaux sont disposés
+* <kbd>Bypass Speed Limits</kbd>
+  * Permet de forcer la voiture à rouler à 50 km/h constants (évite de trop accélérer/ralentir la voiture)
+
+{% hint style="warning" %}
+Uniquement disponible en mode "Labels". La voiture peut freiner tout de même avec une voiture en face.
+{% endhint %}
+
 ## Modes
 
 Le simulateur SimAI32 possède 3 modes de fonctionnement :
@@ -88,7 +105,7 @@ Image RGB 32x32 au format PNG
 {% endstep %}
 
 {% step %}
-### Le simulateur envoie les données voiture à l'ESP32
+### Le simulateur envoie les données voiture à l'ESP32 toutes les 500 ms
 
 Voir [#envoi-et-reception-de-donnees](fonctionnement.md#envoi-et-reception-de-donnees "mention")
 {% endstep %}

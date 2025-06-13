@@ -83,13 +83,13 @@ Pour éviter d'être trop glouton sur la VRAM :
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
   try:
-    tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=2048)])
+    tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=1024)])
   except RuntimeError as e:
     print(e)
 ```
 
 ```python
-// Si celle du haut ne marche pas ou pour TF1
+# Si celle du haut ne marche pas ou pour TensorFlow v1
 
 from keras.backend.tensorflow_backend import set_session  
 config = tf.ConfigProto()  

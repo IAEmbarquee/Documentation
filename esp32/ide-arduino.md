@@ -8,6 +8,8 @@ coverY: 0
 
 # IDE Arduino
 
+## [Veuillez utiliser VSCode !](ide-vscode.md)
+
 ## Introduction
 
 L'IDE Arduino est un environnement de développement intégré (IDE) qui permet de programmer des cartes Arduino ou dans notre cas, des ESP32. Il est basé sur le langage de programmation C++ et utilise une bibliothèque logicielle qui facilite l'écriture de code pour les microcontrôleurs. L'IDE Arduino est un outil puissant et polyvalent qui convient à une grande variété de projets, des plus simples aux plus complexes.

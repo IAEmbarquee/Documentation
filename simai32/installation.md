@@ -18,7 +18,7 @@ L'objectif de l'ESP32 est de recevoir les images de la caméra et de les traiter
 Pour démarrer avec SimAI32, vous aurez besoin des éléments suivants :
 
 1. Un ESP32
-2. Un routeur configuré comme défini ici
+2. Un routeur configuré
 3. Un ordinateur sous Windows
 
 Pour installer SimAI32, suivez les étapes suivantes :

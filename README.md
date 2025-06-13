@@ -2,7 +2,8 @@
 noIndex: true
 noRobotsIndex: true
 icon: house
-cover: .gitbook/assets/SimAILogoBlanc.drawio.png
+cover: >-
+  https://images.unsplash.com/photo-1604076913837-52ab5629fba9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdHxlbnwwfHx8fDE3NDk3MTIxNTR8MA&ixlib=rb-4.1.0&q=85
 coverY: 0
 layout:
   cover:
@@ -32,6 +33,6 @@ Démarrez ici :
 [introduction.md](introduction.md)
 {% endcontent-ref %}
 
-### Version 1.1.0 - **Open Source** MIT Licensed.
+### Version 1.2.0 - **Open Source** - MIT Licensed.
 
-© 2025 hugofnm / Laboratoire d'Électronique Antennes et Télécommunications / Université Côte d’Azur
+> © 2025 - hugofnm | Laboratoire d'Électronique Antennes et Télécommunications | Université Côte d’Azur - Tous droits réservés
